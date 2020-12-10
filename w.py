@@ -8,6 +8,7 @@ from colorama import Fore
 
 def __web__():
     os.system("clear")
+    time.sleep(2)
     try:
         print(Fore.YELLOW + "Hellow . Welcome ;) ")
         time.sleep(2)
@@ -22,7 +23,7 @@ def __web__():
                 pass
         s = socket.gethostbyname(target)
         time.sleep(2)
-        print(Fore.BLUE + "[" + Fore.RED + "+" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.YELLOW + "Your Ip Target :  " + s)
+        print(s)
         time.sleep(2)
         site = "http://" + target
         r = requests.get(site)
