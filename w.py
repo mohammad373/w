@@ -49,7 +49,8 @@ def __web__():
                 print(Fore.RED + "\nNot Found ;(")
                 time.sleep(1)
                 sys.exit()
-            pass
+            except:
+                pass
         if i == 1:
             try:
                 time.sleep(1)
