@@ -8,7 +8,6 @@ from colorama import Fore
 
 def __web__():
     os.system("clear")
-    time.sleep(2)
     try:
         print(Fore.YELLOW + "Hellow . Welcome ;) ")
         time.sleep(2)
