@@ -2,6 +2,7 @@
 
 import os
 import sys
+import time
 import requests
 import webbrowser as web
 from colorama import Fore
